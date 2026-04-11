@@ -1,25 +1,25 @@
 class Tribal < Formula
   desc "Capture tribal knowledge. Give it to your agents."
   homepage "https://github.com/samfolo/tribal"
-  version "0.1.0"
+  version "0.1.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/samfolo/tribal/releases/download/v0.1.0/tribal-aarch64-apple-darwin.tar.xz"
-      sha256 "b73faae89f19ad550f88414bfca80666a01910edb2f39939a8a08a5f35cce66b"
+      url "https://github.com/samfolo/tribal/releases/download/v0.1.1/tribal-aarch64-apple-darwin.tar.xz"
+      sha256 "e30538c7a52bf28d52c987df99d570a682b363b90456d2c48ebce1cd39bac03a"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/samfolo/tribal/releases/download/v0.1.0/tribal-x86_64-apple-darwin.tar.xz"
-      sha256 "00dd23dd89930c7ef8b1b4021a9606c79d8d3979b41bb2e181fa0491ddc0b67b"
+      url "https://github.com/samfolo/tribal/releases/download/v0.1.1/tribal-x86_64-apple-darwin.tar.xz"
+      sha256 "5732e3a9f6bb24b65957ef38f655a0dcf2ddd44d36ff21157ebf2725d99c76f5"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/samfolo/tribal/releases/download/v0.1.0/tribal-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "04650aa2faf674f09e42f9cf67131b0477aba515e8cb083f11bc140b1e5c921a"
+      url "https://github.com/samfolo/tribal/releases/download/v0.1.1/tribal-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "dc57a3516a486c0c454c87d3c74232182c2036f18f8d24f8dba94f6160c204db"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/samfolo/tribal/releases/download/v0.1.0/tribal-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "117117bc7c31465c3adced438b23eb0d25314e3f6a78914cba106edc1a7ad2e2"
+      url "https://github.com/samfolo/tribal/releases/download/v0.1.1/tribal-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "5221cfc8e17290a57c3064d577d1376c07a1daafe161453a8a7474875f6a5dc3"
     end
   end
   license "Elastic-2.0"
