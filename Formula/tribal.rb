@@ -1,25 +1,25 @@
 class Tribal < Formula
   desc "Capture tribal knowledge. Give it to your agents."
   homepage "https://github.com/tribal-memory/tribal"
-  version "0.2.5"
+  version "0.3.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/tribal-memory/tribal/releases/download/v0.2.5/tribal-aarch64-apple-darwin.tar.xz"
-      sha256 "2ea09497aeb88b49e450010f856d5e29fa518414dc146965da9b266161b4db74"
+      url "https://github.com/tribal-memory/tribal/releases/download/v0.3.0/tribal-aarch64-apple-darwin.tar.xz"
+      sha256 "79dd14fccda9f7b529ddb4974e41f7ba249298c9f1627a94f16aa8a94bda4d99"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/tribal-memory/tribal/releases/download/v0.2.5/tribal-x86_64-apple-darwin.tar.xz"
-      sha256 "32f19977313f7d05d9421a45c93d8ee655ac64504f346e065a62f905db129dc8"
+      url "https://github.com/tribal-memory/tribal/releases/download/v0.3.0/tribal-x86_64-apple-darwin.tar.xz"
+      sha256 "7cc0388dd9419baff08e601dcf607e72e53bbcbf539f5f0d2f26fd50a68e0618"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/tribal-memory/tribal/releases/download/v0.2.5/tribal-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "20016d42c8a97a9163d5e4bdc041fc22c31dd610e3c2e7ee1e00100dbe9950d5"
+      url "https://github.com/tribal-memory/tribal/releases/download/v0.3.0/tribal-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "d29c029e6890a3453f914691a1492342c0b205e220ddd7705c3cf724071a247b"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/tribal-memory/tribal/releases/download/v0.2.5/tribal-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "a81438e0e91ddd6c9c273f40c953d51b2d2d66458c6409e8c5ba53cd63a1474e"
+      url "https://github.com/tribal-memory/tribal/releases/download/v0.3.0/tribal-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "30e3b8d02f74b58f24c9a58becddbdb2090ceb3be25b625be71ad208dfe3da9a"
     end
   end
   license "Elastic-2.0"
